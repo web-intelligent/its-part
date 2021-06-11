@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    
+}
+.manufacturer {
+    height: 250px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manufacturer img {
+    width: 80%;
+    object-fit: cover;
+}
+.search-form {
+    width: 500px;
+    margin:0 auto
+}
+.radius-text {
+    border-radius: 5px 0 0 5px;
+}
+.radius-btn {
+    border-radius: 0 5px 5px 0;
+}
+.search-section {
+    background: lightgray;
+    padding: 50px 0;
+}
